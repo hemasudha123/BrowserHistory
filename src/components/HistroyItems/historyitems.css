@@ -1,0 +1,50 @@
+.histroy-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+
+.domain-details-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.domain-details {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap:20px;
+}
+
+.time-stamp {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto';
+    color: #64748b;
+    font-weight: 500;
+}
+
+.applofogs {
+    width: 30px;
+    margin-right: 8px;
+}
+
+.title {
+    margin-right: 8px;
+    font-family: 'Roboto';
+}
+
+.dominurl {
+    font-family: 'Roboto';
+    color: #64748b;
+}
+
+.delete-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
